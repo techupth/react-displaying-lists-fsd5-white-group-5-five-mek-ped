@@ -18,9 +18,11 @@ function App() {
         css={css`
           margin-top: 69px;
           color: black;
+          font-family: Kanit;
+          line-height: 18px;
         `}
       >
-        Movie list
+        Movie List Section
       </h1>
       <section className="movie-list-section">
         {movies.map((item, index) => {
