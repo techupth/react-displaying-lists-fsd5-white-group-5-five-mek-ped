@@ -1,10 +1,12 @@
 import "./App.css";
+import MovieList from "./MovieList";
 
 function App() {
   return (
     <div className="App">
       <section className="movie-list-section">
-        {/* Render Movie Lists Here */}
+        <h1>Movie List Section</h1>
+        <MovieList />
       </section>
     </div>
   );
